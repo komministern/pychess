@@ -1,0 +1,46 @@
+
+
+Chess app:
+
+Methods:
+
+populate_board()
+
+move_piece(start_coord, dest_coord)
+add_piece(type, coord)
+remove_piece(coord)
+
+start_game()
+stop_game()
+
+
+
+get_white_move()
+get_black_move()
+
+get_possible_white_moves()
+get_possible_black_moves()
+
+get_board_position()
+
+set_board_position()
+set_engine_parameters()
+
+states:
+
+no_game_on
+waiting_for_white_move
+waiting_for_black_move
+
+
+
+properties:
+
+white_is_human bool
+black_is_human bool
+
+white_at_bottom bool
+black_at_bottom bool
+
+allowed_human_moves ListOfMoves
+(move = 'start_coord-dest_coord')

@@ -1,0 +1,5 @@
+Run this command from within the project catalouge (Windows):
+
+pyinstaller --windowed --icon=gca.ico --name="GCA Analysis Tool vX.YZ" main.py
+
+The gca.ico must then manually be copied into the project/dist/GCA Analysis Tool vX.YZ directory.
